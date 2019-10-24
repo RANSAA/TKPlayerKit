@@ -14,4 +14,6 @@
   \
   [ijkplayer](https://github.com/bilibili/ijkplayer):bilibili开源的一款播放器
   \
+  [PLPlayerKit](https://github.com/pili-engineering/PLPlayerKit):PLPlayerKit 是七牛推出的一款免费的适用于 iOS 平台的播放器 SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。
+  \
   [SGPlayer](https://github.com/libobjc/SGPlayer):A powerful media play framework for iOS, macOS, and tvOS.
