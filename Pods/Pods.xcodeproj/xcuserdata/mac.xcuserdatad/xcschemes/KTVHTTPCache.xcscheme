@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8CA0CD098B97A1205DEA694FA044A1C2"
-               BuildableName = "libKTVHTTPCache.a"
+               BuildableName = "KTVHTTPCache.framework"
                BlueprintName = "KTVHTTPCache"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

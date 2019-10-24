@@ -1,8 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket" "${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer" "${PODS_CONFIGURATION_BUILD_DIR}/KTVHTTPCache"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CocoaAsyncSocket" "${PODS_ROOT}/Headers/Public/KTVCocoaHTTPServer" "${PODS_ROOT}/Headers/Public/KTVHTTPCache"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket" "${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer" "${PODS_CONFIGURATION_BUILD_DIR}/KTVHTTPCache"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CocoaAsyncSocket" -isystem "${PODS_ROOT}/Headers/Public/KTVCocoaHTTPServer" -isystem "${PODS_ROOT}/Headers/Public/KTVHTTPCache"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"CocoaAsyncSocket" -l"KTVCocoaHTTPServer" -l"KTVHTTPCache" -framework "CFNetwork" -framework "Foundation" -framework "Security" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer/KTVCocoaHTTPServer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KTVHTTPCache/KTVHTTPCache.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer/KTVCocoaHTTPServer.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/KTVHTTPCache/KTVHTTPCache.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/KTVHTTPCache"
+OTHER_LDFLAGS = $(inherited) -framework "CFNetwork" -framework "CocoaAsyncSocket" -framework "Foundation" -framework "KTVCocoaHTTPServer" -framework "KTVHTTPCache" -framework "Security" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "105186B500AA09A533997F3D16DF7B9E"
-               BuildableName = "libKTVCocoaHTTPServer.a"
+               BuildableName = "KTVCocoaHTTPServer.framework"
                BlueprintName = "KTVCocoaHTTPServer"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
