@@ -14,6 +14,8 @@
 
 //TKPlayerKit
 #import "TKPlayer.h"
+#import "TKPlayerLayerView.h"
+
 
 
 

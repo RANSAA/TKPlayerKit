@@ -8,13 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
-#import "TKPlayerView.h"
+#import "TKPlayerLayerView.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TKPlayer : NSObject
-
+@property(nonatomic, strong) AVPlayer *player;
+@property(nonatomic, strong) TKPlayerLayerView *playerView;
 @end
 
 NS_ASSUME_NONNULL_END
