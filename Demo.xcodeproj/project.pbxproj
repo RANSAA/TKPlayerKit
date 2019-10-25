@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043E00F52362E51C00690DE4 /* TKRemoteCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E00F42362E51C00690DE4 /* TKRemoteCenterManager.m */; };
+		043E00F82362EADC00690DE4 /* TKPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E00F72362EADC00690DE4 /* TKPlayerTool.m */; };
 		04AB5D5B236135B20019E59F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5D5A236135B20019E59F /* AppDelegate.m */; };
 		04AB5D5E236135B20019E59F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5D5D236135B20019E59F /* ViewController.m */; };
 		04AB5D61236135B20019E59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5D5F236135B20019E59F /* Main.storyboard */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043E00F32362E51C00690DE4 /* TKRemoteCenterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKRemoteCenterManager.h; sourceTree = "<group>"; };
+		043E00F42362E51C00690DE4 /* TKRemoteCenterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKRemoteCenterManager.m; sourceTree = "<group>"; };
+		043E00F62362EADC00690DE4 /* TKPlayerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPlayerTool.h; sourceTree = "<group>"; };
+		043E00F72362EADC00690DE4 /* TKPlayerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPlayerTool.m; sourceTree = "<group>"; };
 		04AB5D56236135B20019E59F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AB5D59236135B20019E59F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04AB5D5A236135B20019E59F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -119,6 +125,10 @@
 				04AB5D7823613B2B0019E59F /* TKPlayer.m */,
 				04AB5D7B23613B5B0019E59F /* TKPlayerLayerView.h */,
 				04AB5D7C23613B5B0019E59F /* TKPlayerLayerView.m */,
+				043E00F32362E51C00690DE4 /* TKRemoteCenterManager.h */,
+				043E00F42362E51C00690DE4 /* TKRemoteCenterManager.m */,
+				043E00F62362EADC00690DE4 /* TKPlayerTool.h */,
+				043E00F72362EADC00690DE4 /* TKPlayerTool.m */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -277,6 +287,8 @@
 				04AB5D5E236135B20019E59F /* ViewController.m in Sources */,
 				04AB5D7923613B2B0019E59F /* TKPlayer.m in Sources */,
 				04AB5D69236135B30019E59F /* main.m in Sources */,
+				043E00F82362EADC00690DE4 /* TKPlayerTool.m in Sources */,
+				043E00F52362E51C00690DE4 /* TKRemoteCenterManager.m in Sources */,
 				04AB5D7D23613B5B0019E59F /* TKPlayerLayerView.m in Sources */,
 				04AB5D5B236135B20019E59F /* AppDelegate.m in Sources */,
 			);

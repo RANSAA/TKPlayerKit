@@ -10,7 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface TKPlayerLayerView ()
-@property(nonatomic, strong, readonly) AVPlayerLayer *playerLayer;
+@property (nonatomic, strong, readonly) AVPlayerLayer *playerLayer;
 @end
 
 @implementation TKPlayerLayerView{

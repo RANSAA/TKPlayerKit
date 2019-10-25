@@ -15,7 +15,9 @@
 //TKPlayerKit
 #import "TKPlayer.h"
 #import "TKPlayerLayerView.h"
+#import "TKRemoteCenterManager.h"
 
+#import "TKPlayerTool.h"
 
 
 
