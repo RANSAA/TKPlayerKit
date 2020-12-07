@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		849570DFC27665175463482CD1A7929F /* AliPlayerSDK_iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B692F6C772378200709CF5AFAC12A0BF /* Build configuration list for PBXAggregateTarget "AliPlayerSDK_iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AliPlayerSDK_iOS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		926E04A8EFE7EEFC06F20DE81FAA245E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BF09E61C5468B6215D7BB5A9D3B41B4A /* Pods-PlayerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A51FE4B06F78FC62AE97768C1187DF /* Pods-PlayerDemo-dummy.m */; };
+		EE2FB19E6CC88843179FD2462C2C8D55 /* Pods-PlayerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 619DD52C56723109DBEB2FA564072F69 /* Pods-PlayerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B7AB48E24AB88F6EC3F5C98BFFC479E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849570DFC27665175463482CD1A7929F;
+			remoteInfo = AliPlayerSDK_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F9D7F821E896C59C13274798A306B6 /* Pods-PlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1CA897F36AECBE9CECE48E57556D55A8 /* Pods-PlayerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlayerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		26672C0275E3538A1B7FE8D735FDE174 /* AliyunMediaDownloader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunMediaDownloader.framework; sourceTree = "<group>"; };
+		2F79538005841A0F22DCF2A900B2FDE0 /* AliPlayerSDK_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliPlayerSDK_iOS.release.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36A51FE4B06F78FC62AE97768C1187DF /* Pods-PlayerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlayerDemo-dummy.m"; sourceTree = "<group>"; };
+		537E28108788C8562F9DA9464A4D6C67 /* Pods-PlayerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PlayerDemo.modulemap"; sourceTree = "<group>"; };
+		5DDA977D99B8709A500661C30FDB17A3 /* Pods-PlayerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlayerDemo-Info.plist"; sourceTree = "<group>"; };
+		619DD52C56723109DBEB2FA564072F69 /* Pods-PlayerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlayerDemo-umbrella.h"; sourceTree = "<group>"; };
+		6878A1DC65F183BEEA1586AB8C3EC276 /* Pods-PlayerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlayerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		7F6921CE46C02BC72592FBF4B6B13BCC /* AlivcConan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlivcConan.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADBB54D392D7381DD37B1CA5560540E3 /* Pods_PlayerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PlayerDemo.framework; path = "Pods-PlayerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBFB128B3CE9890E75D5056F4918781 /* AliyunPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayer.framework; sourceTree = "<group>"; };
+		B98362B08EF58FE5AE5E29F75BEAECE7 /* Pods-PlayerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlayerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2F5DC4E83B68AC844A6B70C736CF982 /* alivcffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = alivcffmpeg.framework; sourceTree = "<group>"; };
+		DCE18830A330E552E76CB07B70EB0CE0 /* AliPlayerSDK_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliPlayerSDK_iOS.debug.xcconfig; sourceTree = "<group>"; };
+		EA16515C5F7DBC33C366E8C8B222EF85 /* Pods-PlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BB5F59A49B23EF4AAB380CDC6FC421E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926E04A8EFE7EEFC06F20DE81FAA245E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0245313744B9BBDB601ADA3F3CB02BDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6921CE46C02BC72592FBF4B6B13BCC /* AlivcConan.framework */,
+				D2F5DC4E83B68AC844A6B70C736CF982 /* alivcffmpeg.framework */,
+				26672C0275E3538A1B7FE8D735FDE174 /* AliyunMediaDownloader.framework */,
+				AEBFB128B3CE9890E75D5056F4918781 /* AliyunPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07DAFFE2FA6F65FE6AF748E0657127DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC0570796A9B486AC03BE557E9EF2A2 /* Pods-PlayerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		847701C59E50122AF5A13CF1541A3A13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBB54D392D7381DD37B1CA5560540E3 /* Pods_PlayerDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD38DA1B16EC2B6FE0D240C4E02B2CD8 /* AliPlayerSDK_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C832CC7111A1D63B59F798F5E65F6F29 /* AliPlayerSDK */,
+				C8EA91E50ECB69066A507BBECA398C6F /* Support Files */,
+			);
+			name = AliPlayerSDK_iOS;
+			path = AliPlayerSDK_iOS;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C832CC7111A1D63B59F798F5E65F6F29 /* AliPlayerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0245313744B9BBDB601ADA3F3CB02BDC /* Frameworks */,
+			);
+			name = AliPlayerSDK;
+			sourceTree = "<group>";
+		};
+		C8EA91E50ECB69066A507BBECA398C6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE18830A330E552E76CB07B70EB0CE0 /* AliPlayerSDK_iOS.debug.xcconfig */,
+				2F79538005841A0F22DCF2A900B2FDE0 /* AliPlayerSDK_iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AliPlayerSDK_iOS";
+			sourceTree = "<group>";
+		};
+		C9F25DC3F8124D1FAD822DC805290442 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD38DA1B16EC2B6FE0D240C4E02B2CD8 /* AliPlayerSDK_iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C9F25DC3F8124D1FAD822DC805290442 /* Pods */,
+				847701C59E50122AF5A13CF1541A3A13 /* Products */,
+				07DAFFE2FA6F65FE6AF748E0657127DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC0570796A9B486AC03BE557E9EF2A2 /* Pods-PlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				537E28108788C8562F9DA9464A4D6C67 /* Pods-PlayerDemo.modulemap */,
+				B98362B08EF58FE5AE5E29F75BEAECE7 /* Pods-PlayerDemo-acknowledgements.markdown */,
+				1CA897F36AECBE9CECE48E57556D55A8 /* Pods-PlayerDemo-acknowledgements.plist */,
+				36A51FE4B06F78FC62AE97768C1187DF /* Pods-PlayerDemo-dummy.m */,
+				6878A1DC65F183BEEA1586AB8C3EC276 /* Pods-PlayerDemo-frameworks.sh */,
+				5DDA977D99B8709A500661C30FDB17A3 /* Pods-PlayerDemo-Info.plist */,
+				619DD52C56723109DBEB2FA564072F69 /* Pods-PlayerDemo-umbrella.h */,
+				EA16515C5F7DBC33C366E8C8B222EF85 /* Pods-PlayerDemo.debug.xcconfig */,
+				02F9D7F821E896C59C13274798A306B6 /* Pods-PlayerDemo.release.xcconfig */,
+			);
+			name = "Pods-PlayerDemo";
+			path = "Target Support Files/Pods-PlayerDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F4DA0AAFBC2E8D57C746A6EA365D8A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2FB19E6CC88843179FD2462C2C8D55 /* Pods-PlayerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1934B979D3268875A3B253EC54784F7F /* Pods-PlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A9FE33EC3BD0A81309BE59194B8777 /* Build configuration list for PBXNativeTarget "Pods-PlayerDemo" */;
+			buildPhases = (
+				1F4DA0AAFBC2E8D57C746A6EA365D8A2 /* Headers */,
+				A817891BBB42CADE2CA2B56C5C0EA43D /* Sources */,
+				9BB5F59A49B23EF4AAB380CDC6FC421E /* Frameworks */,
+				6D82E57D72D9B8E8325FCF0EE97D6E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40DFC19B77ED81AD4E17247C58583C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-PlayerDemo";
+			productName = "Pods-PlayerDemo";
+			productReference = ADBB54D392D7381DD37B1CA5560540E3 /* Pods_PlayerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 847701C59E50122AF5A13CF1541A3A13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849570DFC27665175463482CD1A7929F /* AliPlayerSDK_iOS */,
+				1934B979D3268875A3B253EC54784F7F /* Pods-PlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D82E57D72D9B8E8325FCF0EE97D6E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A817891BBB42CADE2CA2B56C5C0EA43D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF09E61C5468B6215D7BB5A9D3B41B4A /* Pods-PlayerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40DFC19B77ED81AD4E17247C58583C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliPlayerSDK_iOS;
+			target = 849570DFC27665175463482CD1A7929F /* AliPlayerSDK_iOS */;
+			targetProxy = 2B7AB48E24AB88F6EC3F5C98BFFC479E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56D2A1613B74F79CF9F31DF0ECE4773D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE18830A330E552E76CB07B70EB0CE0 /* AliPlayerSDK_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		673837A46AF0BFC74089807262F9B5F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F9D7F821E896C59C13274798A306B6 /* Pods-PlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlayerDemo/Pods-PlayerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlayerDemo/Pods-PlayerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73CBBC169F1F3511127FDA51421BAC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA16515C5F7DBC33C366E8C8B222EF85 /* Pods-PlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PlayerDemo/Pods-PlayerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlayerDemo/Pods-PlayerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC1D4A76A077BC99981331A642AF2EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F79538005841A0F22DCF2A900B2FDE0 /* AliPlayerSDK_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A9FE33EC3BD0A81309BE59194B8777 /* Build configuration list for PBXNativeTarget "Pods-PlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CBBC169F1F3511127FDA51421BAC84 /* Debug */,
+				673837A46AF0BFC74089807262F9B5F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B692F6C772378200709CF5AFAC12A0BF /* Build configuration list for PBXAggregateTarget "AliPlayerSDK_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D2A1613B74F79CF9F31DF0ECE4773D /* Debug */,
+				CC1D4A76A077BC99981331A642AF2EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

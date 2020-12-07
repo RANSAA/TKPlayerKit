@@ -1,0 +1,18 @@
+PODS:
+  - AliPlayerSDK_iOS (5.2.2):
+    - AliPlayerSDK_iOS/AliPlayerSDK (= 5.2.2)
+  - AliPlayerSDK_iOS/AliPlayerSDK (5.2.2)
+
+DEPENDENCIES:
+  - AliPlayerSDK_iOS
+
+SPEC REPOS:
+  trunk:
+    - AliPlayerSDK_iOS
+
+SPEC CHECKSUMS:
+  AliPlayerSDK_iOS: 8a8f4b021e2354b869739c55d23fab6a8a642dd9
+
+PODFILE CHECKSUM: 856ca87b621f0b1f722a3f69de6770ae53ffaad0
+
+COCOAPODS: 1.9.3
