@@ -1,0 +1,6 @@
+framework module Pods_AliPlayer {
+  umbrella header "Pods-AliPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
