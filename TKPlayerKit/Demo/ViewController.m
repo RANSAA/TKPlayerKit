@@ -36,6 +36,9 @@
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
 
     NSURL *url = [NSURL URLWithString:@"https://video.pearvideo.com/mp4/third/20190917/cont-1603130-11956977-103252-hd.mp4"];
+    url = [NSBundle.mainBundle URLForResource:@"test.mp4" withExtension:nil];
+    url = [NSBundle.mainBundle URLForResource:@"test.mp3" withExtension:nil];
+    
     AVPlayerItem *item = [[AVPlayerItem alloc] initWithURL:url];
     _player = [[AVPlayer alloc] initWithPlayerItem:item];
     [self.preView setPlayer:_player];

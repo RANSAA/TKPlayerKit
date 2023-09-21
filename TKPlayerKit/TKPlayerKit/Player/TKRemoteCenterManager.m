@@ -35,6 +35,7 @@
     [[AVAudioSession sharedInstance] setActive:YES error:nil];
 
     MPRemoteCommandCenter *center = [MPRemoteCommandCenter sharedCommandCenter];
+
     MPRemoteCommand *cmdPlay = [center playCommand];
     cmdPlay.enabled = YES;
     [cmdPlay addTarget:self action:@selector(remotePlayEvent:)];
@@ -50,12 +51,22 @@
     MPRemoteCommand *cmdPrevious = [center previousTrackCommand];
     cmdPrevious.enabled = YES;
     [cmdPrevious addTarget:self action:@selector(remotePreviousEvent:)];
+    
     if (@available(iOS 9.1, *)) {
         MPRemoteCommand *cmdChangePlaybackPosition = [center changePlaybackPositionCommand];
-        [cmdChangePlaybackPosition setEnabled:YES];
+        cmdChangePlaybackPosition.enabled = YES;
         [cmdChangePlaybackPosition addTarget:self action:@selector(remoteSlideBarEvent:)];
+//        [cmdChangePlaybackPosition addTargetWithHandler:^MPRemoteCommandHandlerStatus(MPRemoteCommandEvent * _Nonnull event) {
+//                MPChangePlaybackPositionCommandEvent *positionEvent = (MPChangePlaybackPositionCommandEvent *)event;
+//            // 更新音频播放器的当前播放位置
+//            NSLog(@"positionTime:%f",positionEvent.positionTime);
+//            // 返回处理状态
+//            return MPRemoteCommandHandlerStatusSuccess;
+//        }];
+    } else {
+        // Fallback on earlier versions
     }
-
+    
 }
 
 /** 开始-可选  **/
@@ -73,45 +84,77 @@
 
 #pragma mark 控制中心事件响应
 /**  播放 **/
-- (void)remotePlayEvent:(MPRemoteCommandEvent *)event
+- (MPRemoteCommandHandlerStatus)remotePlayEvent:(MPRemoteCommandEvent *)event
 {
     NSLog(@"播放");
     [_player play];
+    
+    //必须返回一个状态，这儿默认成功，使用是应该按照实际情况
+    return MPRemoteCommandHandlerStatusSuccess;
 }
 
 /** 暂停  **/
-- (void)remotePauseEvent:(MPRemoteCommandEvent *)event
+- (MPRemoteCommandHandlerStatus)remotePauseEvent:(MPRemoteCommandEvent *)event
 {
     NSLog(@"暂停");
     [_player pause];
+    
+    //必须返回一个状态，这儿默认成功，使用是应该按照实际情况
+    return MPRemoteCommandHandlerStatusSuccess;
 }
 
 /** 停止  **/
-- (void)remoteStopEvent:(MPRemoteCommandEvent *)event
+- (MPRemoteCommandHandlerStatus)remoteStopEvent:(MPRemoteCommandEvent *)event
 {
     NSLog(@"stop");
+    //必须返回一个状态，这儿默认成功，使用是应该按照实际情况
+    return MPRemoteCommandHandlerStatusSuccess;
 }
 
 /** 下一个  **/
-- (void)remoteNextEvent:(MPRemoteCommandEvent *)event
+- (MPRemoteCommandHandlerStatus)remoteNextEvent:(MPRemoteCommandEvent *)event
 {
     NSLog(@"下一个");
+    //必须返回一个状态，这儿默认成功，使用是应该按照实际情况
+    return MPRemoteCommandHandlerStatusSuccess;
 }
 
 /**  上一个 **/
-- (void)remotePreviousEvent:(MPRemoteCommandEvent *)event
+- (MPRemoteCommandHandlerStatus)remotePreviousEvent:(MPRemoteCommandEvent *)event
 {
     NSLog(@"上一个");
+    //必须返回一个状态，这儿默认成功，使用是应该按照实际情况
+    return MPRemoteCommandHandlerStatusSuccess;
 }
 
-/**  滑动进度条 **/
-- (void)remoteSlideBarEvent:(MPChangePlaybackPositionCommandEvent *)event
+/**  滑动进度条
+ PS:目前无法滑动，可能是还有某个Command Action来同步滑块的值才能滑动
+ **/
+- (MPRemoteCommandHandlerStatus)remoteSlideBarEvent:(MPChangePlaybackPositionCommandEvent *)event
 {
-    NSLog(@"滑动进度条");
+    NSLog(@"滑动进度条 event:%f",event.positionTime);
     CMTime time = CMTimeMake(event.positionTime, 1);
     [_player seekToTime:time completionHandler:^(BOOL finished) {
         NSLog(@"fin:%d",finished);
     }];
+    
+    
+//    CMTime newTime = CMTimeMakeWithSeconds(event.positionTime, NSEC_PER_SEC);
+//    [self.player seekToTime:newTime];
+//    //必须返回一个状态，这儿默认成功，使用是应该按照实际情况
+    
+//    CMTime time = CMTimeMake(event.positionTime, event.timestamp);
+//    time = CMTimeMakeWithSeconds(tmpEvent.positionTime, NSEC_PER_SEC);
+//    [_player seekToTime:time completionHandler:^(BOOL finished) {
+//        NSLog(@"fin:%d",finished);
+//    }];
+    
+    
+//    CMTime totlaTime = self.player.currentItem.duration;
+//    time = CMTimeMake(totlaTime.value*event.positionTime/CMTimeGetSeconds(totlaTime), totlaTime.timescale);
+//    [_player seekToTime:time];
+    
+    return MPRemoteCommandHandlerStatusSuccess;
 }
 
 #pragma mark  控制中心展示的信息

@@ -18,6 +18,8 @@
 		04AB5D73236137900019E59F /* TKPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5D72236137900019E59F /* TKPlayer.bundle */; };
 		04AB5D7923613B2B0019E59F /* TKPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5D7823613B2B0019E59F /* TKPlayer.m */; };
 		04AB5D7D23613B5B0019E59F /* TKPlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB5D7C23613B5B0019E59F /* TKPlayerLayerView.m */; };
+		3F0D3A5A2ABC65E5003C993E /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D3A592ABC65E4003C993E /* test.mp4 */; };
+		3F0D3A5C2ABC6BAF003C993E /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F0D3A5B2ABC6BAF003C993E /* test.mp3 */; };
 		8F8011A19D471D1899344C5C /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28146E59CF2CF7337CE5CA76 /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		04AB5D7B23613B5B0019E59F /* TKPlayerLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKPlayerLayerView.h; sourceTree = "<group>"; };
 		04AB5D7C23613B5B0019E59F /* TKPlayerLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKPlayerLayerView.m; sourceTree = "<group>"; };
 		28146E59CF2CF7337CE5CA76 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0D3A592ABC65E4003C993E /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		3F0D3A5B2ABC6BAF003C993E /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
 		87378CA38D2947F5BC6F7130 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		9B57820AC2D0B29CD9F09A99 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +117,8 @@
 		04AB5D71236137670019E59F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3F0D3A592ABC65E4003C993E /* test.mp4 */,
+				3F0D3A5B2ABC6BAF003C993E /* test.mp3 */,
 				04AB5D72236137900019E59F /* TKPlayer.bundle */,
 			);
 			path = Resources;
@@ -230,7 +236,9 @@
 			files = (
 				04AB5D66236135B30019E59F /* LaunchScreen.storyboard in Resources */,
 				04AB5D63236135B30019E59F /* Assets.xcassets in Resources */,
+				3F0D3A5C2ABC6BAF003C993E /* test.mp3 in Resources */,
 				04AB5D61236135B20019E59F /* Main.storyboard in Resources */,
+				3F0D3A5A2ABC65E5003C993E /* test.mp4 in Resources */,
 				04AB5D73236137900019E59F /* TKPlayer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
